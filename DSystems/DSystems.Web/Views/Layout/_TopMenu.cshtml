@@ -1,0 +1,13 @@
+﻿@model DSystems.Web.Models.Layout.TopMenuViewModel
+@foreach (var menuItem in Model.MainMenu.Items)
+{
+    <li class="@(Model.ActiveMenuItemName == menuItem.Name ? "active" : "")">
+        <a href="@menuItem.Url">
+            @if (!string.IsNullOrWhiteSpace(menuItem.Icon))
+            {
+                <i class="@menuItem.Icon"></i>
+            }
+            @menuItem.DisplayName
+        </a>
+    </li>
+}

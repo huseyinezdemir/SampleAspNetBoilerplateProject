@@ -1,0 +1,26 @@
+﻿@model List<DSystems.Domain.User>
+@{
+    ViewBag.ActiveMenu = "Home"; //The menu item will be active for this page.
+}
+<div>
+    <h1>@L("WellcomeMessage")!</h1>
+
+    <table>
+        <thead>
+            <th>@L("User.FirstName")</th>
+            <th>@L("User.LastName")</th>
+        </thead>
+        <tbody>
+            @foreach (var item in  Model)
+            {
+            <tr>
+                <td>@item.FirstName</td>
+                <td>@item.LastName</td>
+            </tr>    
+            }
+            
+        </tbody>
+    </table>
+
+
+</div>
