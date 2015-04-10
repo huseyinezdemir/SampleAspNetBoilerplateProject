@@ -26,8 +26,7 @@ namespace DSystems.Service
 
         public List<User> GetAllUsers()
         {
-            var result = _userRepository.Query(x => x.Where(y => y.IsActive).ToList());
-            return result;
+            return _userRepository.GetAllList().Where(y => y.IsActive).ToList();
         }
     }
 }

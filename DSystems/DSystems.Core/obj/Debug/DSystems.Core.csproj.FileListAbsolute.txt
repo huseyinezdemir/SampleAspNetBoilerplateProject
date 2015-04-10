@@ -39,5 +39,6 @@ C:\Users\hozdemir\Documents\GitHub\SampleAspNetBoilerplateProject\DSystems\DSyst
 C:\Users\hozdemir\Documents\GitHub\SampleAspNetBoilerplateProject\DSystems\DSystems.Core\bin\Debug\Nito.AsyncEx.Concurrent.xml
 C:\Users\hozdemir\Documents\GitHub\SampleAspNetBoilerplateProject\DSystems\DSystems.Core\bin\Debug\Nito.AsyncEx.Enlightenment.xml
 C:\Users\hozdemir\Documents\GitHub\SampleAspNetBoilerplateProject\DSystems\DSystems.Core\bin\Debug\System.Collections.Immutable.xml
+C:\Users\hozdemir\Documents\GitHub\SampleAspNetBoilerplateProject\DSystems\DSystems.Core\obj\Debug\DSystems.Core.csprojResolveAssemblyReference.cache
 C:\Users\hozdemir\Documents\GitHub\SampleAspNetBoilerplateProject\DSystems\DSystems.Core\obj\Debug\DSystems.Core.dll
 C:\Users\hozdemir\Documents\GitHub\SampleAspNetBoilerplateProject\DSystems\DSystems.Core\obj\Debug\DSystems.Core.pdb

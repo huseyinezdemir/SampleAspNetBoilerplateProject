@@ -12,35 +12,30 @@ using Xunit;
 
 namespace DSystems.Test.User
 {
-    public class UserService_Test_With_Mocks : DSystemsTestBase
+    public class UserService_Test_With_Mocks : SimpleDSystemTestBase
     {
         private readonly IUserService _userService;
 
         public UserService_Test_With_Mocks()
         {
-
-            var users = new List<Domain.User>();
-
-            users.Add(new Domain.User { FirstName = "Huseyin" });
-            users.Add(new Domain.User { FirstName = "Osman" });
+            var users = new List<Domain.User>
+            {
+                new Domain.User{FirstName = "Ahmet",IsActive = true},
+                new Domain.User{FirstName = "Mehmet",IsActive = true}
+            };
 
             var userRepository = NSubstitute.Substitute.For<IRepository<Domain.User>>();
-            
             userRepository.GetAllList().Returns(users);
-
+            
             _userService = new UserService(userRepository);
-
-
         }
 
         [Fact]
         public void Should_Get_All_User()
         {
-            var result = _userService.GetAllUsers();
-
-            result.Count.ShouldBe(2);
-
-            result.FirstOrDefault(x => x.FirstName == "Oguz").ShouldNotBe(null);
+            var users = _userService.GetAllUsers();
+            users.ShouldNotBe(null);
+            users.Count.ShouldBe(2);
         }
     }
 }
