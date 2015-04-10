@@ -5,6 +5,7 @@ using Abp.Modules;
 using Abp.TestBase;
 using Castle.MicroKernel.Registration;
 using DSystems.EntityFramework;
+using DSystems.Test.InitialData;
 
 namespace DSystems.Test
 {
@@ -18,7 +19,7 @@ namespace DSystems.Test
                     .LifestyleSingleton()
                 );
 
-
+            UsingDbContext(context => new SimpleInitialDataBuilder().Build(context));
         }
 
         protected override void AddModules(ITypeList<AbpModule> modules)
