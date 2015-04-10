@@ -2,17 +2,20 @@
 using System.Data.Common;
 using Abp.Collections;
 using Abp.Modules;
+using Abp.TestBase;
 using Castle.MicroKernel.Registration;
 using DSystems.EntityFramework;
 using DSystems.Test.InitialData;
 
 namespace DSystems.Test
 {
-    public abstract class DSystemsTestBase : Abp.TestBase.AbpIntegratedTestBase
+    public abstract class DSystemsTestBase : AbpIntegratedTestBase
     {
         protected DSystemsTestBase()
         {
-            this.LocalIocManager.IocContainer.Register(
+            
+
+            LocalIocManager.IocContainer.Register(
                 Component.For<DbConnection>()
                     .UsingFactoryMethod(Effort.DbConnectionFactory.CreateTransient)
                     .LifestyleSingleton()
@@ -46,6 +49,7 @@ namespace DSystems.Test
 
         protected override void AddModules(ITypeList<AbpModule> modules)
         {
+            modules.Add<DSystemTestModule>();
             base.AddModules(modules);
         }
     }

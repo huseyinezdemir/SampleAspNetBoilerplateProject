@@ -337,7 +337,6 @@
     <Content Include="packages.config" />
     <Content Include="Views\About\Index.cshtml" />
     <Content Include="Views\Shared\_TopBar.cshtml" />
-    <Content Include="Views\Layout\_LanguageSelection.cshtml" />
     <Content Include="Views\Layout\_TopMenu.cshtml" />
     <Content Include="Views\Shared\Error.cshtml" />
     <Content Include="Scripts\sweetalert\sweet-alert.scss" />

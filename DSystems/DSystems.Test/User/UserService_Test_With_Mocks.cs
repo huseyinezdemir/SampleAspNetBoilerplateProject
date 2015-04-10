@@ -25,7 +25,7 @@ namespace DSystems.Test.User
             users.Add(new Domain.User { FirstName = "Osman" });
 
             var userRepository = NSubstitute.Substitute.For<IRepository<Domain.User>>();
-
+            
             userRepository.GetAllList().Returns(users);
 
             _userService = new UserService(userRepository);

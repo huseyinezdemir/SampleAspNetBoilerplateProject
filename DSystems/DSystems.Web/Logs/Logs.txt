@@ -558,3 +558,75 @@ DEBUG 2015-04-09 13:57:09,693 [6    ] Abp.AutoMapper.AbpAutoMapperModule       -
 DEBUG 2015-04-09 13:57:10,473 [6    ] Abp.Localization.LocalizationManager     - Initializing 2 localization sources.
 DEBUG 2015-04-09 13:57:10,477 [6    ] Abp.Localization.LocalizationManager     - Initialized localization source: DSystems
 DEBUG 2015-04-09 13:57:10,478 [6    ] Abp.Localization.LocalizationManager     - Initialized localization source: AbpWeb
+DEBUG 2015-04-10 10:49:54,985 [5    ] Abp.Modules.AbpModuleManager             - Loading Abp modules...
+DEBUG 2015-04-10 10:49:56,884 [5    ] Abp.Modules.AbpModuleManager             - Found 11 ABP modules in total.
+DEBUG 2015-04-10 10:49:56,889 [5    ] Abp.Modules.AbpModuleManager             - Loaded module: Abp.AutoMapper.AbpAutoMapperModule, Abp.AutoMapper, Version=0.5.5.0, Culture=neutral, PublicKeyToken=null
+DEBUG 2015-04-10 10:49:56,890 [5    ] Abp.Modules.AbpModuleManager             - Loaded module: Abp.AbpKernelModule, Abp, Version=0.5.10.0, Culture=neutral, PublicKeyToken=null
+DEBUG 2015-04-10 10:49:56,891 [5    ] Abp.Modules.AbpModuleManager             - Loaded module: Abp.EntityFramework.AbpEntityFrameworkModule, Abp.EntityFramework, Version=0.5.5.0, Culture=neutral, PublicKeyToken=null
+DEBUG 2015-04-10 10:49:56,891 [5    ] Abp.Modules.AbpModuleManager             - Loaded module: Abp.WebApi.AbpWebApiModule, Abp.Web.Api, Version=0.5.5.0, Culture=neutral, PublicKeyToken=null
+DEBUG 2015-04-10 10:49:56,891 [5    ] Abp.Modules.AbpModuleManager             - Loaded module: Abp.Web.AbpWebModule, Abp.Web, Version=0.5.5.0, Culture=neutral, PublicKeyToken=null
+DEBUG 2015-04-10 10:49:56,891 [5    ] Abp.Modules.AbpModuleManager             - Loaded module: Abp.Web.Mvc.AbpWebMvcModule, Abp.Web.Mvc, Version=0.5.5.0, Culture=neutral, PublicKeyToken=null
+DEBUG 2015-04-10 10:49:56,891 [5    ] Abp.Modules.AbpModuleManager             - Loaded module: DSystems.DSystemsCoreModule, DSystems.Core, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null
+DEBUG 2015-04-10 10:49:56,891 [5    ] Abp.Modules.AbpModuleManager             - Loaded module: DSystems.DSystemsDataModule, DSystems.EntityFramework, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null
+DEBUG 2015-04-10 10:49:56,891 [5    ] Abp.Modules.AbpModuleManager             - Loaded module: DSystems.Service.Contract.DSystemServiceContractModule, DSystems.Service.Contract, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null
+DEBUG 2015-04-10 10:49:56,892 [5    ] Abp.Modules.AbpModuleManager             - Loaded module: DSystems.Service.DSystemServiceModule, DSystems.Service, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null
+DEBUG 2015-04-10 10:49:56,892 [5    ] Abp.Modules.AbpModuleManager             - Loaded module: DSystems.Web.DSystemsWebModule, DSystems.Web, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null
+DEBUG 2015-04-10 10:49:56,895 [5    ] Abp.Modules.AbpModuleManager             - 11 modules loaded.
+DEBUG 2015-04-10 10:49:57,778 [5    ] Abp.AutoMapper.AbpAutoMapperModule       - Found 0 classes defines auto mapping attributes
+DEBUG 2015-04-10 10:50:02,875 [5    ] Abp.Localization.LocalizationManager     - Initializing 2 localization sources.
+DEBUG 2015-04-10 10:50:02,959 [5    ] Abp.Localization.LocalizationManager     - Initialized localization source: DSystems
+DEBUG 2015-04-10 10:50:02,959 [5    ] Abp.Localization.LocalizationManager     - Initialized localization source: AbpWeb
+DEBUG 2015-04-10 10:55:09,029 [5    ] Abp.Modules.AbpModuleManager             - Loading Abp modules...
+DEBUG 2015-04-10 10:55:10,143 [5    ] Abp.Modules.AbpModuleManager             - Found 11 ABP modules in total.
+DEBUG 2015-04-10 10:55:10,147 [5    ] Abp.Modules.AbpModuleManager             - Loaded module: Abp.AutoMapper.AbpAutoMapperModule, Abp.AutoMapper, Version=0.5.5.0, Culture=neutral, PublicKeyToken=null
+DEBUG 2015-04-10 10:55:10,149 [5    ] Abp.Modules.AbpModuleManager             - Loaded module: Abp.AbpKernelModule, Abp, Version=0.5.5.0, Culture=neutral, PublicKeyToken=null
+DEBUG 2015-04-10 10:55:10,149 [5    ] Abp.Modules.AbpModuleManager             - Loaded module: Abp.EntityFramework.AbpEntityFrameworkModule, Abp.EntityFramework, Version=0.5.5.0, Culture=neutral, PublicKeyToken=null
+DEBUG 2015-04-10 10:55:10,149 [5    ] Abp.Modules.AbpModuleManager             - Loaded module: Abp.WebApi.AbpWebApiModule, Abp.Web.Api, Version=0.5.5.0, Culture=neutral, PublicKeyToken=null
+DEBUG 2015-04-10 10:55:10,149 [5    ] Abp.Modules.AbpModuleManager             - Loaded module: Abp.Web.AbpWebModule, Abp.Web, Version=0.5.5.0, Culture=neutral, PublicKeyToken=null
+DEBUG 2015-04-10 10:55:10,149 [5    ] Abp.Modules.AbpModuleManager             - Loaded module: Abp.Web.Mvc.AbpWebMvcModule, Abp.Web.Mvc, Version=0.5.5.0, Culture=neutral, PublicKeyToken=null
+DEBUG 2015-04-10 10:55:10,150 [5    ] Abp.Modules.AbpModuleManager             - Loaded module: DSystems.DSystemsCoreModule, DSystems.Core, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null
+DEBUG 2015-04-10 10:55:10,150 [5    ] Abp.Modules.AbpModuleManager             - Loaded module: DSystems.DSystemsDataModule, DSystems.EntityFramework, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null
+DEBUG 2015-04-10 10:55:10,150 [5    ] Abp.Modules.AbpModuleManager             - Loaded module: DSystems.Service.Contract.DSystemServiceContractModule, DSystems.Service.Contract, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null
+DEBUG 2015-04-10 10:55:10,150 [5    ] Abp.Modules.AbpModuleManager             - Loaded module: DSystems.Service.DSystemServiceModule, DSystems.Service, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null
+DEBUG 2015-04-10 10:55:10,150 [5    ] Abp.Modules.AbpModuleManager             - Loaded module: DSystems.Web.DSystemsWebModule, DSystems.Web, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null
+DEBUG 2015-04-10 10:55:10,153 [5    ] Abp.Modules.AbpModuleManager             - 11 modules loaded.
+DEBUG 2015-04-10 10:55:10,919 [5    ] Abp.AutoMapper.AbpAutoMapperModule       - Found 0 classes defines auto mapping attributes
+DEBUG 2015-04-10 10:55:12,185 [5    ] Abp.Localization.LocalizationManager     - Initializing 2 localization sources.
+DEBUG 2015-04-10 10:55:12,190 [5    ] Abp.Localization.LocalizationManager     - Initialized localization source: DSystems
+DEBUG 2015-04-10 10:55:12,190 [5    ] Abp.Localization.LocalizationManager     - Initialized localization source: AbpWeb
+DEBUG 2015-04-10 10:59:54,081 [4    ] Abp.Modules.AbpModuleManager             - Loading Abp modules...
+DEBUG 2015-04-10 10:59:56,086 [4    ] Abp.Modules.AbpModuleManager             - Found 11 ABP modules in total.
+DEBUG 2015-04-10 10:59:56,090 [4    ] Abp.Modules.AbpModuleManager             - Loaded module: Abp.AutoMapper.AbpAutoMapperModule, Abp.AutoMapper, Version=0.5.5.0, Culture=neutral, PublicKeyToken=null
+DEBUG 2015-04-10 10:59:56,092 [4    ] Abp.Modules.AbpModuleManager             - Loaded module: Abp.AbpKernelModule, Abp, Version=0.5.5.0, Culture=neutral, PublicKeyToken=null
+DEBUG 2015-04-10 10:59:56,092 [4    ] Abp.Modules.AbpModuleManager             - Loaded module: Abp.EntityFramework.AbpEntityFrameworkModule, Abp.EntityFramework, Version=0.5.5.0, Culture=neutral, PublicKeyToken=null
+DEBUG 2015-04-10 10:59:56,092 [4    ] Abp.Modules.AbpModuleManager             - Loaded module: Abp.WebApi.AbpWebApiModule, Abp.Web.Api, Version=0.5.5.0, Culture=neutral, PublicKeyToken=null
+DEBUG 2015-04-10 10:59:56,092 [4    ] Abp.Modules.AbpModuleManager             - Loaded module: Abp.Web.AbpWebModule, Abp.Web, Version=0.5.5.0, Culture=neutral, PublicKeyToken=null
+DEBUG 2015-04-10 10:59:56,092 [4    ] Abp.Modules.AbpModuleManager             - Loaded module: Abp.Web.Mvc.AbpWebMvcModule, Abp.Web.Mvc, Version=0.5.5.0, Culture=neutral, PublicKeyToken=null
+DEBUG 2015-04-10 10:59:56,093 [4    ] Abp.Modules.AbpModuleManager             - Loaded module: DSystems.DSystemsCoreModule, DSystems.Core, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null
+DEBUG 2015-04-10 10:59:56,093 [4    ] Abp.Modules.AbpModuleManager             - Loaded module: DSystems.DSystemsDataModule, DSystems.EntityFramework, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null
+DEBUG 2015-04-10 10:59:56,093 [4    ] Abp.Modules.AbpModuleManager             - Loaded module: DSystems.Service.Contract.DSystemServiceContractModule, DSystems.Service.Contract, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null
+DEBUG 2015-04-10 10:59:56,093 [4    ] Abp.Modules.AbpModuleManager             - Loaded module: DSystems.Service.DSystemServiceModule, DSystems.Service, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null
+DEBUG 2015-04-10 10:59:56,093 [4    ] Abp.Modules.AbpModuleManager             - Loaded module: DSystems.Web.DSystemsWebModule, DSystems.Web, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null
+DEBUG 2015-04-10 10:59:56,096 [4    ] Abp.Modules.AbpModuleManager             - 11 modules loaded.
+DEBUG 2015-04-10 10:59:56,894 [4    ] Abp.AutoMapper.AbpAutoMapperModule       - Found 0 classes defines auto mapping attributes
+DEBUG 2015-04-10 10:59:57,888 [4    ] Abp.Localization.LocalizationManager     - Initializing 2 localization sources.
+DEBUG 2015-04-10 10:59:57,892 [4    ] Abp.Localization.LocalizationManager     - Initialized localization source: DSystems
+DEBUG 2015-04-10 10:59:57,893 [4    ] Abp.Localization.LocalizationManager     - Initialized localization source: AbpWeb
+DEBUG 2015-04-10 11:01:08,216 [5    ] Abp.Modules.AbpModuleManager             - Loading Abp modules...
+DEBUG 2015-04-10 11:01:09,364 [5    ] Abp.Modules.AbpModuleManager             - Found 11 ABP modules in total.
+DEBUG 2015-04-10 11:01:09,369 [5    ] Abp.Modules.AbpModuleManager             - Loaded module: Abp.AutoMapper.AbpAutoMapperModule, Abp.AutoMapper, Version=0.5.5.0, Culture=neutral, PublicKeyToken=null
+DEBUG 2015-04-10 11:01:09,371 [5    ] Abp.Modules.AbpModuleManager             - Loaded module: Abp.AbpKernelModule, Abp, Version=0.5.5.0, Culture=neutral, PublicKeyToken=null
+DEBUG 2015-04-10 11:01:09,371 [5    ] Abp.Modules.AbpModuleManager             - Loaded module: Abp.EntityFramework.AbpEntityFrameworkModule, Abp.EntityFramework, Version=0.5.5.0, Culture=neutral, PublicKeyToken=null
+DEBUG 2015-04-10 11:01:09,371 [5    ] Abp.Modules.AbpModuleManager             - Loaded module: Abp.WebApi.AbpWebApiModule, Abp.Web.Api, Version=0.5.5.0, Culture=neutral, PublicKeyToken=null
+DEBUG 2015-04-10 11:01:09,371 [5    ] Abp.Modules.AbpModuleManager             - Loaded module: Abp.Web.AbpWebModule, Abp.Web, Version=0.5.5.0, Culture=neutral, PublicKeyToken=null
+DEBUG 2015-04-10 11:01:09,371 [5    ] Abp.Modules.AbpModuleManager             - Loaded module: Abp.Web.Mvc.AbpWebMvcModule, Abp.Web.Mvc, Version=0.5.5.0, Culture=neutral, PublicKeyToken=null
+DEBUG 2015-04-10 11:01:09,371 [5    ] Abp.Modules.AbpModuleManager             - Loaded module: DSystems.DSystemsCoreModule, DSystems.Core, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null
+DEBUG 2015-04-10 11:01:09,372 [5    ] Abp.Modules.AbpModuleManager             - Loaded module: DSystems.DSystemsDataModule, DSystems.EntityFramework, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null
+DEBUG 2015-04-10 11:01:09,372 [5    ] Abp.Modules.AbpModuleManager             - Loaded module: DSystems.Service.Contract.DSystemServiceContractModule, DSystems.Service.Contract, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null
+DEBUG 2015-04-10 11:01:09,372 [5    ] Abp.Modules.AbpModuleManager             - Loaded module: DSystems.Service.DSystemServiceModule, DSystems.Service, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null
+DEBUG 2015-04-10 11:01:09,372 [5    ] Abp.Modules.AbpModuleManager             - Loaded module: DSystems.Web.DSystemsWebModule, DSystems.Web, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null
+DEBUG 2015-04-10 11:01:09,375 [5    ] Abp.Modules.AbpModuleManager             - 11 modules loaded.
+DEBUG 2015-04-10 11:01:10,155 [5    ] Abp.AutoMapper.AbpAutoMapperModule       - Found 0 classes defines auto mapping attributes
+DEBUG 2015-04-10 11:01:11,454 [5    ] Abp.Localization.LocalizationManager     - Initializing 2 localization sources.
+DEBUG 2015-04-10 11:01:11,458 [5    ] Abp.Localization.LocalizationManager     - Initialized localization source: DSystems
+DEBUG 2015-04-10 11:01:11,459 [5    ] Abp.Localization.LocalizationManager     - Initialized localization source: AbpWeb

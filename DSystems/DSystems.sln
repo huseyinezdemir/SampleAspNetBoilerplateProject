@@ -22,8 +22,6 @@ Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "DSystems.Service.Contract",
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "ConsoleApplication1", "ConsoleApplication1\ConsoleApplication1.csproj", "{DE2D08E0-9653-48AA-BDE5-4C7C37E2333F}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "DSystems.Test", "DSystems.Test\DSystems.Test.csproj", "{4C8187A1-63A7-4C42-9663-AC9D78532A60}"
-EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|Any CPU = Debug|Any CPU
@@ -58,10 +56,6 @@ Global
 		{DE2D08E0-9653-48AA-BDE5-4C7C37E2333F}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{DE2D08E0-9653-48AA-BDE5-4C7C37E2333F}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{DE2D08E0-9653-48AA-BDE5-4C7C37E2333F}.Release|Any CPU.Build.0 = Release|Any CPU
-		{4C8187A1-63A7-4C42-9663-AC9D78532A60}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
-		{4C8187A1-63A7-4C42-9663-AC9D78532A60}.Debug|Any CPU.Build.0 = Debug|Any CPU
-		{4C8187A1-63A7-4C42-9663-AC9D78532A60}.Release|Any CPU.ActiveCfg = Release|Any CPU
-		{4C8187A1-63A7-4C42-9663-AC9D78532A60}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
